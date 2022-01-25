@@ -84,16 +84,14 @@ const User = ({data}) => {
     <div className='row'>
     <label>Phone</label>
       <input 
-      type="text" 
-      required 
+      type="text"  
       value={userInfo.phone} 
       onChange={(e) => setUserInfo({...userInfo, phone: e.target.value})}/>
     </div>
     <div className='row'>
     <label>Website</label>
       <input 
-      type="text" 
-      required 
+      type="text"  
       value={userInfo.website} 
       onChange={(e) => setUserInfo({...userInfo, website: e.target.value})}/>
     </div>
