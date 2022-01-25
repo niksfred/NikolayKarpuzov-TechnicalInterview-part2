@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-header:hover {
+  background: #e9e9ed;
+}
+
+.user-header h3 {
+  margin: 5px;
+}
+
+.formEl {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin: 5px;
+}
+
+.posts-container {
+  background: #e9e9ed;
+}
+
+.posts-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.post {
+  margin: 10px;
+}
