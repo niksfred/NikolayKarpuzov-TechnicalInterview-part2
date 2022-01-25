@@ -1,0 +1,1 @@
+# NikolayKarpuzov-TechnicalInterview-part2
